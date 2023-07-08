@@ -1,0 +1,6 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.cakihorse'
+version '0.0.1'
