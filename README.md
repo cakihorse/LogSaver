@@ -1,28 +1,29 @@
 # LogSaver
 
-LogSaver is an open-source program. It's a logger.
+LogSaver is an open-source program. It is a logging tool.
 
 ## Getting Started
 
-If you have any projects in needs for a logger, LogSaver is the perfect lib for you !
+If you have any projects that require a logging tool, LogSaver is the perfect library for you!
 
-### How does it function ?
+### How does it work?
 
-There are 3 principals functions :
-* createFile (it will create a file with name and extension you want)
-* writeFile (it will write on the file you want write on)
-* readFile (it will the file you want read)
+There are three main functions:
+* createFile: It creates a file with the specified name and extension.
+* writeFile: It writes content to the specified file.
+* readFile: It reads and displays the content of the specified file.
 
 ## createFile
+
 ```
-//for create a file you need to do this :
-//Don't forget to name the file with the correct extension and also the correct import btw !
+// To create a file, follow these steps:
+// Don't forget to provide the file name with the correct extension and import the necessary dependencies!
 
-        //declare the name of the file :
-        String fileName = "YourFileNameHere.txt"; //the name must contains the extension.
+// Declare the file name:
+String fileName = "YourFileNameHere.txt"; // The name must include the extension.
 
-        //create file:
-        createFile(fileName);'
+// Create the file:
+createFile(fileName);
 ```
 
 ## writeFile
@@ -34,11 +35,12 @@ writeFile(fileName, "The text you want to put in the file.");
 ## readFile
 
 ```
-//the file is only read on the console.
+// The file content will be displayed in the console.
 readFile(fileName);
 ```
 
-## Entire example :
+## Complete example
+
 ```
 package com.yourpackage;
 
@@ -55,27 +57,25 @@ import static fr.cakihorse.FileHandler.*;
                          |_|
 */
 
-public class ExampleLog{
+public class ExampleLog {
     public static void main(String[] args) {
-        //creation of the file
-        //TODO: Don't forget to name the file with the correct extension and also the correct import btw !
+        // Creation of the file
+        // TODO: Don't forget to provide the file name with the correct extension and import the necessary dependencies!
 
         String fileName = "YourFileNameHere.txt";
         createFile(fileName);
 
-
-        //writing on the file
+        // Writing to the file
         writeFile(fileName, "Your text here...");
 
-        //reading the file and showing his content in the console
+        // Reading the file and displaying its content in the console
         readFile(fileName);
     }
-
 }
-
 ```
-## How Use ?
+
+## How to Use?
+
 [![](https://jitpack.io/v/cakihorse/LogSaver.svg)](https://jitpack.io/#cakihorse/LogSaver)
-``` soon... ```
 
-
+```Coming soon...```
