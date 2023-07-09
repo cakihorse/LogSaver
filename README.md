@@ -74,6 +74,8 @@ public class ExampleLog{
 }
 
 ```
-
+## How Use ?
+[![](https://jitpack.io/v/cakihorse/LogSaver.svg)](https://jitpack.io/#cakihorse/LogSaver)
+``` soon... ```
 
 
