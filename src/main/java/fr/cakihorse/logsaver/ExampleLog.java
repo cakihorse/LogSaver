@@ -1,6 +1,6 @@
-package fr.cakihorse;
+package fr.cakihorse.logsaver;
 
-import static fr.cakihorse.FileHandler.*;
+import static fr.cakihorse.logsaver.FileHandler.*;
 
 /*
                                 _
@@ -19,14 +19,17 @@ public class ExampleLog{
         //TODO: Don't forget to name the file with the correct extension and also the correct import btw !
 
         String fileName = "YourFileNameHere.txt";
-        createFile(fileName);
+        String location = "Your/path/here";
+
+        //creating the file
+        createFile(fileName, location);
 
 
         //writing on the file
-        writeFile(fileName, "Your text here...");
+        writeFile(fileName, location,"Your text here...");
 
         //reading the file and showing his content in the console
-        readFile(fileName);
+        readFile(fileName, location);
     }
 
 }

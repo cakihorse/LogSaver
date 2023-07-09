@@ -1,6 +1,13 @@
-plugins {
+ plugins {
     id 'java'
+     id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'maven-publish'
 }
 
 group 'fr.cakihorse'
 version '0.0.1'
+
+ repositories {
+     mavenCentral()  // ou tout autre référentiel Maven contenant vos dépendances
+ }
+
