@@ -1,67 +1,63 @@
+Bien sûr ! Voici une version améliorée du texte :
+
 # LogSaver
 
-LogSaver is an open-source program. It is a logging tool.
+LogSaver is an open-source program that serves as a powerful logging tool.
 
 ## Getting Started
 
-If you have any projects that require a logging tool, LogSaver is the perfect library for you!
+If you're working on a project that requires robust logging capabilities, LogSaver is the perfect library for you!
 
 ### How does it work?
 
-There are three main functions:
-* createFile: It creates a file with the specified name and extension.
-* writeFile: It writes content to the specified file.
-* readFile: It reads and displays the content of the specified file.
+LogSaver provides three main functions:
 
-## createFile
+- `createFile`: Creates a file with a specified name and extension.
+- `writeFile`: Writes content to a specified file.
+- `readFile`: Reads and displays the content of a specified file.
 
-```
-// To create a file, follow these steps:
-// Don't forget to provide the file name with the correct extension and import the necessary dependencies!
+## Usage Example
 
-// Declare the file name:
-String fileName = "YourFileNameHere.txt"; // The name must include the extension.
+### createFile
+
+To create a file, follow these steps:
+
+```java
+// Declare the file name (including the extension):
+String fileName = "YourFileNameHere.txt";
 
 // Create the file:
 createFile(fileName);
 ```
 
-## writeFile
+### writeFile
 
-```
+To write content to a file, use the following syntax:
+
+```java
 writeFile(fileName, "The text you want to put in the file.");
 ```
 
-## readFile
+### readFile
 
-```
-// The file content will be displayed in the console.
+To read the content of a file and display it in the console, use the following code:
+
+```java
 readFile(fileName);
 ```
 
-## Complete example
+## Complete Example
 
-```
+Here's a complete example that demonstrates the usage of LogSaver:
+
+```java
 package com.yourpackage;
 
 import static fr.cakihorse.FileHandler.*;
 
-/*
-                                _
-                               | |
-  _____  ____ _ _ __ ___  _ __ | | ___
- / _ \ \/ / _` | '_ ` _ \| '_ \| |/ _ \
-|  __/>  < (_| | | | | | | |_) | |  __/
- \___/_/\_\__,_|_| |_| |_| .__/|_|\___|
-                         | |
-                         |_|
-*/
-
 public class ExampleLog {
     public static void main(String[] args) {
-        // Creation of the file
-        // TODO: Don't forget to provide the file name with the correct extension and import the necessary dependencies!
-
+        // Creating the file
         String fileName = "YourFileNameHere.txt";
         createFile(fileName);
 
@@ -74,8 +70,8 @@ public class ExampleLog {
 }
 ```
 
-## How to Use?
+## How to Use LogSaver?
 
 [![](https://jitpack.io/v/cakihorse/LogSaver.svg)](https://jitpack.io/#cakihorse/LogSaver)
 
-```Coming soon...```
+Detailed instructions on how to use LogSaver will be available soon. Stay tuned!
